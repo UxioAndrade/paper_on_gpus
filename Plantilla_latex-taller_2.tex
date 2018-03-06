@@ -58,6 +58,7 @@
 	\normalsize \uxio.garcia.andrade@rai.usc.es % Your email address
 \date{\06/03/2018} % Leave empty to omit a date
 \renewcommand{\maketitlehookd}{
+
 	\begin{abstract}
 		\noindent Unas 100 palabras describiendo el problema que se aborda y las conclusiones principales del documento.  Debe ser corto.\\\mbox{}\\
 		 \textbf{\textit{Palabras clave}: Palabra clave 1, palabra clave 2,\ldots}
@@ -80,7 +81,7 @@
 	Machine Learning is the field of study that gives computers the ability to learn without being explicitly programmed~\cite{andrewNG}. One of its most revolutionary subfields is Deep Learning, which is based on learning data representations, as opposed to task-specific algorithms. ~\cite{wikipedia} It has countless applications, being healthcare institutions and self-driving cars companies our best clients.
 	Nevertheless, the implementation of such disruptive technologies often involves expensive hardware updates. Due to this, our engineering team has been lately complaining about the lack of deep learning-oriented equipment, focusing on the paramount urge of acquiring new cost-efficient GPUs. This paper is based on the market analysis developed by ... and .
 
-	To avoid possible merging problems, we have decided to primarily evaluate NVIDIA GPUs, as AMD's OpenCL toolkit has some compatibility issues with major DL frameworks. This will be our most restrictive but necessary constraint.
+	To avoid possible merging  problems, we have decided to primarily evaluate NVIDIA GPUs, as AMD's OpenCL toolkit has some compatibility issues with major DL frameworks. This will be our most restrictive but necessary constraint.
 
 	The rest of this paper is organized as follows. Section 2 discusses how to escrutine GPUs' suitability for DL, section 3 shows the results we have obtained, and section 4 offers conclusions.
 
@@ -88,7 +89,7 @@
 
 	\section{Apartado 2}
 
-	Our research has shown that there are 3 main specifications to focus on when it comes to Deep Learning: memory bandwith, which is probably the most important one, as it determines the amount of data the GPU is able to handle; processing power, which indicates how fast the GPU can manage data; and VRAM size, although its relevance depends on the kind of work we need to do.
+	Our research has shown that there are 3 main specifications to focus on when it comes to Deep Learning: memory bandwith, which is probably the most important one, as it determines the amount of data the GPU is able to handle; processing power, which indicates how fast the GPU can manage data; and VRAM size, although its relevance depends on the kind of work we need to do. Moreover, price and cost-efficiency will also be evaluated, as our budget restrictions play a decisive role when selecting GPUs.
 	In order to compare GPUs, we have gathered information from diverse benchmarks. The first one ~\cite{directCompute} considers computational power of the GPUs, by performing general purpose computing, and taking advantage of the huge paralell computation capacity of GPUs. On the other hand, the second one ~\cite{pricePerformance} analyses performance per dollar, as we are expected to select affordable GPUs.
 
 
